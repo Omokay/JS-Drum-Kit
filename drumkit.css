@@ -1,0 +1,48 @@
+html, body{
+    font-size: 15px;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 80%;
+    background-image: url('cover.jpg');
+    font-family: 'Open Sans', sans-serif;
+}
+
+.drums{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: hsl(211, 22%, 65%);
+}
+
+.drum{
+    border: 3px solid hsl(211, 22%, 65%);
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: .5rem;
+    padding: 1rem .5rem;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 0 0 6px black;
+    transition: all 0.07s;
+}
+
+.beat{
+    transform: scale(1.1);
+    border-color: lavenderblush;
+    box-shadow: 0 0 10px lightblue;
+}
+
+kbd{
+    display: block;
+    font-size: 40px;
+}
+
+.sound{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: RGB(255, 0, 0);
+}
